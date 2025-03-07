@@ -13,4 +13,6 @@ This is the second project of the Software Engineering program at TripleTen. It 
 
 ## Plan on improving the project
 
-Add your ideas here :)
+- Implementing a form for guests to be able to schedule a table reservation online.
+- making the page more interactive gor users by adding animations.
+- styling the page with background gradients. :)
