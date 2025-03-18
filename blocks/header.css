@@ -3,8 +3,10 @@
   flex-direction: column;
   height: 800px;
   padding: 30px 80px 40px;
+  box-sizing: border-box;
   background: center / cover no-repeat #fff url(../images/background_header.svg);
   position: relative;
+  z-index: 1;
 }
 
 .header__title {
@@ -37,6 +39,7 @@
   height: 568px;
   top: 124px;
   right: 5px;
+  z-index: -1;
 }
 
 .header__footer {
@@ -48,7 +51,6 @@
 
 .header__paragraph {
   margin: 0px;
-  font-family: "Inter";
   font-style: normal;
   font-weight: 500;
   color: #6f6f6f;

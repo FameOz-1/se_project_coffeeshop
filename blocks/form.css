@@ -43,16 +43,16 @@
   color: #fff;
   line-height: 20px;
   background-color: #1878dc;
+  border: none;
   border-radius: 4px;
   transition: background-color 0.5s ease;
 }
 
 .form__button:hover {
   background-color: #3f96f3;
-  border-color: #3f96f3;
 }
 
-input[type="checkbox"].form__checkbox {
+.form__checkbox {
   appearance: none;
   background-color: #fff;
   border: 1px solid #838383;
@@ -61,8 +61,7 @@ input[type="checkbox"].form__checkbox {
   height: 20px;
   margin: 0;
 }
-
-input[type="checkbox"].form__checkbox:checked {
+.form__checkbox:checked {
   background-color: #1878dc;
   background-image: url(../images/check.svg);
   background-size: 18px 17px;
